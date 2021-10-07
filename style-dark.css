@@ -110,12 +110,12 @@ header {
 }
 
 .hero__name {
-    color: #d2ffef;
+    color: #dffff4;
     font-size: 144px;
     font-weight: 800;
     margin: 0;
     padding: 0;
-    text-shadow: rgb(255, 255, 255) 0px 0px 1.706px, rgb(255, 255, 255) 0px 0px 3.56px, #00f8a1 0px 0px 4.2px, #00f8a1 0px 0px 11.4px, #00f8a1 0px 0px 12.6px, #00f8a1 0px 0px 0px, #00f8a1 0px 0px 60px
+    text-shadow: rgb(255, 255, 255) 0px 0px 1.706px, rgb(255, 255, 255) 0px 0px 3.56px, #00f8a1 0px 0px 4.2px, #00f8a1 0px 0px 7.4px, #00f8a1 0px 0px 12.6px, #00f8a1 0px 0px 40px, #00f8a1 0px 0px 60px
 }
 
 .flicker-slow {
@@ -123,10 +123,10 @@ header {
   }
 
   @keyframes flicker {
-	0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% {
+	0%, 19.9999%, 22%, 62.9999%, 64%, 64.9999%, 70%, 100% {
     opacity: .99;
 	}
-	20%, 21.999%, 63%, 63.999%, 65%, 69.999% {
+	20%, 21.9999%, 63%, 63.9999%, 65%, 69.9999% {
 		opacity: 0.6;
 	}
 }
