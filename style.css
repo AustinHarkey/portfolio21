@@ -104,6 +104,19 @@ header {
     color: rgb(255, 0, 46);
 }
 
+
+.nav__link--resume {
+    border: 1px solid rgb(255, 0, 46);
+    border-radius: 5px;
+    padding: 10px 30px;
+    margin-left: 20px;
+}
+
+.nav__link--resume:hover {
+    background-color: rgb(255, 0, 46);
+    color: #fff;
+}
+
 /* HERO >>>> START */
 .hero {
     width: 100%;

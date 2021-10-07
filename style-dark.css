@@ -82,6 +82,18 @@ header {
     color: #10cb8a;
 }
 
+.nav__link--resume {
+    border: 1px solid #10cb8a;
+    border-radius: 5px;
+    padding: 10px 30px;
+    margin-left: 20px;
+}
+
+.nav__link--resume:hover {
+    background-color: #10cb8a;
+    color: #0b0d13;
+}
+
 /* HERO >>>> START */
 .hero {
     width: 100%;
