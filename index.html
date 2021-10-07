@@ -13,10 +13,17 @@
 
     <header class="header">
         <a class="header__logoWrap" href="index.html">
-            <!-- <img class="header__logo" src="img/logo-dark-2.png"> -->
+            <img class="header__logo" src="img/logo-dark-2.png">
         </a>
 
-        <a class="header__wrap" href="index.html"><img class="header__burger" src="img/burger.svg"></a>
+       <nav>
+           <ul class="nav">
+               <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+               <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+               <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
+               <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+           </ul>
+       </nav>
     </header>
 
 
@@ -25,7 +32,7 @@
     <div class="circle__one"></div>
     <div class="circle__two"></div>
     <div class="circle__three"></div>
-    <section class="hero">
+    <section id="home" class="hero">
         <div class="container">
             <div class="hero__row">
                 <h1 class="hero__name">Austin Harkey</h1>
@@ -38,32 +45,11 @@
 
     <!-- <section class="spacer"></section> -->
 
-    <section class="triple">
-        <div class="container">
-            <div class="triple__intro">
-                <p class="triple__subtext">Identity</p>
-                <h2 class="triple__header">Design simply but significant</h2>
-            </div>
-            <div class="triple__row">
-                <div class="triple__col">
-                    <h3 class="triple__title">My Mission</h3>
-                    <p class="triple__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                </div>
-                <div class="triple__col">
-                    <h3 class="triple__title">My Goals</h3>
-                    <p class="triple__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                </div>
-                <div class="triple__col">
-                    <h3 class="triple__title">My Future</h3>
-                    <p class="triple__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+    
 
     <!-- <section class="spacer"></section> -->
 
-    <section class="tripleList">
+    <section id="skills" class="tripleList">
         <div class="container">
             <div class="tripleList__intro">
                 <p class="tripleList__subtext">Skills</p>
@@ -119,7 +105,7 @@
 
     <!-- <section class="spacer"></section> -->
 
-    <section class="projects">
+    <section id="portfolio" class="projects">
         <div class="container">
             <p class="projects__subhead">Potfolio</p>
             <h1 class="projects__header">Selected Projects</h1>
@@ -140,7 +126,7 @@
                     </a>
                 </div>
                 <div class="projects__project">
-                    <div class="projects__thumb">
+                    <div class="projects__thumb projects__thumb--two">
                         <!-- <img class="projects__image" src="img/sweater.jpg" alt="guy pulling sweater over his head"> -->
                     </div>
                     <a class="projects__details" href="https://www.google.com/">
@@ -153,7 +139,7 @@
                     </a>
                 </div>
                 <div class="projects__project">
-                    <div class="projects__thumb">
+                    <div class="projects__thumb projects__thumb--three">
                         <!-- <img class="projects__image" src="img/sweater.jpg" alt="guy pulling sweater over his head"> -->
                     </div>
                     <a class="projects__details" href="https://www.google.com/">
@@ -168,6 +154,29 @@
             </div>
         </div>
     </section>
+
+    <section id="about" class="triple">
+        <div class="container">
+            <div class="triple__intro">
+                <p class="triple__subtext">About Me</p>
+                <h2 class="triple__header">Design simply but significant</h2>
+            </div>
+            <div class="triple__row">
+                <div class="triple__col">
+                    <h3 class="triple__title">My Mission</h3>
+                    <p class="triple__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                </div>
+                <div class="triple__col">
+                    <h3 class="triple__title">My Goals</h3>
+                    <p class="triple__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                </div>
+                <div class="triple__col">
+                    <h3 class="triple__title">My Future</h3>
+                    <p class="triple__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                </div>
+            </div>
+        </div>
+    </section> 
 
     
 

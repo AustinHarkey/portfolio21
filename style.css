@@ -9,12 +9,16 @@ body {
 
 /* HEADER >>>> START */
 header {
-    background-color: #fff;
+    /* background-color: #fff; */
     height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 40px;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .header__burger {
@@ -35,7 +39,7 @@ header {
     position: absolute;
     box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.08);
     left: -450px;
-    top: -8%;
+    top: -7%;
 }
 
 .circle__two {
@@ -45,8 +49,8 @@ header {
     border-radius: 100%;
     position: absolute;
     box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.08);
-    right: -13%;
-    top: -13%;
+    right: -10%;
+    top: -10%;
 }
 
 .circle__three {
@@ -56,8 +60,24 @@ header {
     border-radius: 50%;
     position: absolute;
     box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.08);
-    right: -29%;
-    top: 20%;
+    right: -32%;
+    top: 12%;
+}
+
+/* NAV >>>> START */
+.nav {
+    list-style: none;
+    display: flex;
+}
+
+.nav__link {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #000;
+}
+
+.nav__link:hover {
+    color: rgb(255, 0, 46);
 }
 
 /* HERO >>>> START */
@@ -70,7 +90,7 @@ header {
 .hero__row {
     letter-spacing: -1px;
     position: absolute;
-    top: 50%;
+    top: 60%;
     transform: translate(0, -70%);
 }
 
@@ -112,7 +132,7 @@ header {
 /* TRIPLE >>>> START */
 .triple {
     width: 100%;
-    padding: 175px 0;
+    padding: 100px 0 200px;
     background-color: #fff;
 }
 
@@ -170,7 +190,7 @@ header {
 /* TRIPLE LIST >>>> START */
 .tripleList {
     width: 100%;
-    padding: 175px 0;
+    padding: 100px 0;
     background-color: #fff;
 }
 
@@ -259,7 +279,7 @@ header {
 
 /* START >>>> PROJECTS */
 .projects {
-    padding: 175px 0;
+    padding: 100px 0;
     width: 100%;
 }
 .projects__header {
@@ -305,6 +325,25 @@ header {
     height: 480px;
     overflow: hidden;
     background-image: url("img/sweater.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+
+.projects__thumb--two {
+    width: 54%;
+    height: 480px;
+    overflow: hidden;
+    background-image: url("img/color.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.projects__thumb--three {
+    width: 54%;
+    height: 480px;
+    overflow: hidden;
+    background-image: url("img/splash.jpg");
     background-size: cover;
     background-position: 50% 50%;
 }
