@@ -4,6 +4,8 @@ body {
     font-family: 'Inter', sans-serif;
     position: relative;
     overflow-x: hidden;
+    background-color: #0b0d13;
+    color: #a9a9b2
 }
 
 
@@ -64,30 +66,6 @@ header {
     top: 12%;
 }
 
-.toggle {
-    background-color: #fff;
-    position: fixed;
-    right: 0;
-    top: 30%;
-    box-sizing: border-box;
-    padding: 10px;
-    border-radius: 5px 0 0 5px;
-    border: 1px solid #d0d1d8;
-    cursor: pointer;
-    width: 60px;
-    height: 60px;
-    text-align: center;
-    z-index: 200;
-}
-
-.toggle i {
-    color: rgb(255, 0, 46);
-}
-
-.toggle:hover i {
-    color: #000;
-}
-
 /* NAV >>>> START */
 .nav {
     list-style: none;
@@ -97,11 +75,11 @@ header {
 .nav__link {
     text-decoration: none;
     padding: 10px 20px;
-    color: #000;
+    color: #fff;
 }
 
 .nav__link:hover {
-    color: rgb(255, 0, 46);
+    color: #10cb8a;
 }
 
 /* HERO >>>> START */
@@ -119,7 +97,7 @@ header {
 }
 
 .hero__name {
-    color: rgb(255, 0, 46);
+    color: #10cb8a;
     font-size: 144px;
     font-weight: 800;
     margin: 0;
@@ -127,7 +105,7 @@ header {
 }
 
 .hero__title {
-    color: #000;
+    color: #a9a9b2;
     font-size: 104px;
     font-weight: 800;
     margin: 0;
@@ -139,7 +117,7 @@ header {
     letter-spacing: 0px;
     line-height: 30px;
     max-width: 350px;
-    color: rgb(69, 69, 69);
+    color: #fff;
     padding: 30px 0 0 50px;
 }
 
@@ -157,7 +135,7 @@ header {
 .triple {
     width: 100%;
     padding: 100px 0 200px;
-    background-color: #fff;
+    background-color: #0b0d13;
 }
 
 .triple__intro {
@@ -193,13 +171,14 @@ header {
 .triple__title {
     font-size: 22px;
     font-weight: 600;
+    color: #fff;
 }
 
 
 .triple__text {
     font-size: 18px;
     line-height: 30px;
-    color: rgb(69, 69, 69);
+    color: #a9a9b2;
 }
 
 
@@ -208,14 +187,14 @@ header {
 /* SPACER >>>> START */
 .spacer {
     height: 100px;
-    background-color: #000;
+    background-color: #10cb8a;
 }
 
 /* TRIPLE LIST >>>> START */
 .tripleList {
     width: 100%;
     padding: 100px 0;
-    background-color: #fff;
+    background-color: #0b0d13;
 }
 
 .tripleList__intro {
@@ -252,6 +231,7 @@ header {
     font-size: 26px;
     font-weight: 500;
     padding-top: 15px;
+    color: #a9a9b2;
 }
 
 
@@ -262,17 +242,17 @@ header {
 }
 
 .far {
-    color: rgb(255, 0, 46);
+    color: #10cb8a;
     font-size: 40px;
 }
 
 .fas {
-    color: rgb(255, 0, 46);
+    color: #10cb8a;
     font-size: 40px;
 }
 
 .fab {
-    color: rgb(255, 0, 46);
+    color: #10cb8a;
     font-size: 40px;
 }
 
@@ -298,7 +278,7 @@ header {
 .tipleList__item {
     font-size: 18px;
     padding: 10px 0;
-    
+    color: #fff;
 }
 
 /* START >>>> PROJECTS */
@@ -327,18 +307,18 @@ header {
 }
 
 .projects__projects {
-    padding: 100px 0;
+    padding: 60px 0 0;
 }
 
 .projects__project {
     display: flex;
-    border: 1px solid rgb(218, 218, 218);
+    border: 1px solid #1c2030;
     transition: all .3s ease-in-out;
     margin-bottom: 80px;
 }
 
 .projects__project:hover {
-    border:1px solid rgb(238, 238, 238);
+    border:1px solid #1c2030;
     box-shadow: 0 12px 24px -2px rgba(119, 139, 165, 0.2);
     transform:translateY(-7px);
 }
@@ -379,12 +359,13 @@ header {
 .projects__details {
     width: 46%;
     text-decoration: none;
-    color: #000;
+    color: #10cb8a;
     box-sizing: border-box;
     padding-left: 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: #0d0f16;
 }
 
 .projects__projectSubtext {
@@ -393,12 +374,15 @@ header {
     letter-spacing: 3.8px;
     margin: 0;
     padding: 0;
+    color: #fff;
 }
 
 .projects__projectTitle {
     font-size: 52px;
     margin-top: 40px;
     margin-bottom: 25px;
+    color: #a9a9b2;
+    transition: all .3s ease-in-out;
 }
 
 .projects__btn {
@@ -410,6 +394,7 @@ header {
     font-size: 18px;
     font-weight: 500;
     align-self: center;
+    color: #fff;
 }
 
 .projects__arrow {
@@ -419,17 +404,22 @@ header {
 }
 
 .arrowRight {
-    color: #000;
+    color: #10cb8a;
     transition: all .3s ease-in-out;
 }
 
 .projects__project:hover .arrowRight {
-    color:rgb(255, 0, 46);
+    color:#10cb8a;
+}
+
+.projects__project:hover .projects__projectTitle {
+    color: #fff;
 }
 
 /* PROFILE >>>> START */
 .profile {
     width: 100%;
+    padding: 60px 0 200px;
 }
 
 .profile__wrapper {
@@ -470,8 +460,34 @@ header {
 .profile__text {
     font-size: 18px;
     line-height: 30px;
-    color: rgb(69, 69, 69);
+    color: #fff;
 }
+
+.toggle {
+    background-color: #141620;
+    position: fixed;
+    right: 0;
+    top: 30%;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #1c2030;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    z-index: 200;
+}
+
+.toggle i {
+    color: #10cb8a;
+}
+
+.toggle:hover i {
+    color: #fff;
+}
+
+
 
 /* MEDIA QUERIES >>> */
 @media (max-width: 1200px) {
