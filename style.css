@@ -430,6 +430,7 @@ header {
 /* PROFILE >>>> START */
 .profile {
     width: 100%;
+    padding: 60px 0 200px;
 }
 
 .profile__wrapper {

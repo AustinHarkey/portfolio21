@@ -12,7 +12,7 @@ toggle.addEventListener('click', (e) => {
         icon.src = 'img/code2.png';
     } else {
         stylesheet.setAttribute('href', 'style-dark.css');
-        toggle.innerHTML = '<i class="far fa-lightbulb"></i>';
+        toggle.innerHTML = '<i class="far fa-sun"></i>';
         logo.src = 'img/logo-dark-2-green.png';
         icon.src = 'img/code2-green.png';
     }

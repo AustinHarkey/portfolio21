@@ -97,7 +97,7 @@ header {
 }
 
 .hero__name {
-    color: #10cb8a;
+    color: #00f8a1;
     font-size: 144px;
     font-weight: 800;
     margin: 0;
@@ -318,8 +318,9 @@ header {
 }
 
 .projects__project:hover {
-    border:1px solid #1c2030;
-    box-shadow: 0 12px 24px -2px rgba(119, 139, 165, 0.2);
+    border:1px solid #10cb8a    ;
+    -webkit-box-shadow: 5px 5px 0px 3px #10cb8a; 
+box-shadow: 5px 5px 0px 3px #10cb8a;
     transform:translateY(-7px);
 }
 
