@@ -11,7 +11,8 @@ body {
 
 /* HEADER >>>> START */
 header {
-    /* background-color: #fff; */
+    background-color: #0b0d13;
+    opacity: .985;
     height: 80px;
     display: flex;
     justify-content: space-between;
