@@ -41,6 +41,7 @@ burger.addEventListener("click", navToggle);
 let menuClick = () => {
     if(menu.classList.contains('nav__open') && window.innerWidth < 751) {
         menu.classList.remove("nav__open");
+        burger.classList.remove("burger--open");
     }
 }
 
