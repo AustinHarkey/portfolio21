@@ -17,3 +17,36 @@ toggle.addEventListener('click', (e) => {
         icon.src = 'img/code2-green.png';
     }
 })
+
+
+// Collect DOM elements
+let burger = document.querySelector(".burger");
+let body = document.querySelector('.body');
+let nav = document.querySelector(".nav");
+let header = document.querySelector(".header");
+let menu = document.querySelector('.nav');
+let menuLinks = document.querySelectorAll('.nav__item');
+
+// Toggle mobile menu
+let navToggle = () => {
+    // nav.classList.toggle("nav--open");
+    burger.classList.toggle("burger--open");
+    menu.classList.toggle("nav__open");
+  };
+
+
+// menu burger navToggle
+burger.addEventListener("click", navToggle);
+
+let menuClick = () => {
+    if(menu.classList.contains('nav__open') && window.innerWidth < 751) {
+        menu.classList.remove("nav__open");
+    }
+}
+
+menuLinks.forEach(link => {
+    link.addEventListener('click', menuClick);
+});
+
+
+

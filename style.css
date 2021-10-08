@@ -89,7 +89,7 @@ header {
 }
 
 /* NAV >>>>> START */
-.nav {
+.nav__main {
     list-style: none;
     display: flex;
 }
