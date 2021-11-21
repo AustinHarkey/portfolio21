@@ -23,8 +23,8 @@
        <nav class="nav">
            <ul class="nav__main">
                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-               <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
                <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
+               <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
                <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
                <li class="nav__item"><a href="#" class="nav__link nav__link--resume">Resume</a></li>
            </ul>
@@ -56,39 +56,39 @@
     <section id="portfolio" class="projects">
         <div class="container">
             <p class="projects__subhead">Potfolio</p>
-            <h1 class="projects__header">Selected Projects</h1>
-            <p class="projects__subtext">Very seasons gathering be dry stars every fifth lorem</p>
+            <h1 class="projects__header">Selected Work</h1>
+            <p class="projects__subtext">View my selected works by category</p>
 
             <div class="projects__projects">
-                <div class="projects__project">
+                <a class="projects__project" href="https://www.google.com/">
                     <div class="projects__thumb">
                         <!-- <img class="projects__image" src="img/sweater.jpg" alt="guy pulling sweater over his head"> -->
                     </div>
-                    <a class="projects__details" href="https://www.google.com/">
-                        <p class="projects__projectSubtext">HTML / CSS / JS / NODE</p>
-                        <h3 class="projects__projectTitle">Project One</h3>
+                    <div class="projects__details"">
+                        <!-- <p class="projects__projectSubtext">HTML / CSS / JS / NODE</p> -->
+                        <h3 class="projects__projectTitle">Development</h3>
                         <div class="projects__btn">
-                            <p class="projects__view">View Project</p>
+                            <p class="projects__view">View Development Work</p>
                             <p class="projects__arrow"><i class="fas fa-arrow-circle-right arrowRight"></i></p>
                         </div>
-                    </a>
-                </div>
-                <div class="projects__project">
+                    </div>
+                </a>
+                <a class="projects__project" href="https://www.google.com/">
                     <div class="projects__thumb projects__thumb--two">
                         <!-- <img class="projects__image" src="img/sweater.jpg" alt="guy pulling sweater over his head"> -->
                     </div>
-                    <a class="projects__details" href="https://www.google.com/">
-                        <p class="projects__projectSubtext">JS / REACT / NODE / EXPRESS</p>
-                        <h3 class="projects__projectTitle">Project Two</h3>
+                    <div class="projects__details">
+                        <!-- <p class="projects__projectSubtext">JS / REACT / NODE / EXPRESS</p> -->
+                        <h3 class="projects__projectTitle">Design</h3>
                         <div class="projects__btn">
-                            <p class="projects__view">View Project</p>
+                            <p class="projects__view">View Design Work</p>
                             <p class="projects__arrow"><i class="fas fa-arrow-circle-right arrowRight"></i></p>
                         </div>
-                    </a>
-                </div>
-                <div class="projects__project">
+                    </div>
+                </a>
+                <!-- <div class="projects__project">
                     <div class="projects__thumb projects__thumb--three">
-                        <!-- <img class="projects__image" src="img/sweater.jpg" alt="guy pulling sweater over his head"> -->
+                        <img class="projects__image" src="img/sweater.jpg" alt="guy pulling sweater over his head">
                     </div>
                     <a class="projects__details" href="https://www.google.com/">
                         <p class="projects__projectSubtext">HTML / CSS / JS</p>
@@ -97,7 +97,7 @@
                             <p class="projects__view">View Project</p>
                             <p class="projects__arrow"><i class="fas fa-arrow-circle-right arrowRight"></i></p>
                         </div>
-                    </a>
+                    </a> -->
                 </div>
             </div>
         </div>
@@ -118,11 +118,11 @@
                         <i class="fas fa-code"></i>
                     </div>
                     <h3 class="tripleList__title">Development</h3>
-                    <p class="tripleList__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                    <p class="tripleList__text">Front-end focused web development. Landing pages, UI elements, browser apps</p>
                     <ul class="tripleList__list">
-                        <li class="tipleList__item">HTML/CSS/SASS</li>
+                        <li class="tipleList__item">HTML</li>
+                        <li class="tipleList__item">CSS</li>
                         <li class="tipleList__item">Javascript</li>
-                        <li class="tipleList__item">React</li>
                         <li class="tipleList__item">Node</li>
                         <li class="tipleList__item">Express</li>
                     </ul>
@@ -132,11 +132,11 @@
                         <i class="fas fa-server"></i>
                     </div>
                     <h3 class="tripleList__title">Design</h3>
-                    <p class="tripleList__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                    <p class="tripleList__text">Web & email design. Websites, UI, email sends and campaigns, email welcome series </p>
                     <ul class="tripleList__list">
-                        <li class="tipleList__item">Wireframing & Layout</li>
-                        <li class="tipleList__item">Web Design</li>
                         <li class="tipleList__item">Email Design</li>
+                        <li class="tipleList__item">Web Design</li>
+                        <li class="tipleList__item">Wireframing & Layout</li>
                         <li class="tipleList__item">UI Design</li>
                         <li class="tipleList__item">Mobile First</li>
                     </ul>
@@ -146,13 +146,14 @@
                         <i class="fas fa-search"></i>
                     </div>
                     <h3 class="tripleList__title">Tooling</h3>
-                    <p class="tripleList__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                    <p class="tripleList__text">Well versed in design, email, and coding tools. Can quickly adapt to new tooling as needed. </p>
                     <ul class="tripleList__list">
-                        <li class="tipleList__item">Git / Github</li>
-                        <li class="tipleList__item">Agile / Scrum</li>
-                        <li class="tipleList__item">VS Code</li>
                         <li class="tipleList__item">Adobe</li>
-                        <li class="tipleList__item">NPM</li>
+                        <li class="tipleList__item">Bronto [email]</li>
+                        <li class="tipleList__item">Listrak [email]</li>
+                        <li class="tipleList__item">VS Code</li>
+                        <li class="tipleList__item">Git / Github</li>
+                        
                     </ul>
                 </div>
                 
@@ -206,7 +207,30 @@
         </div>
     </section>
 
-    
+
+<!-- <section class="lightbox">
+    <div class="container">
+            <div class="gallery">
+        <a class="gallery__thumb" data-fslightbox href="img/face.jpg">
+            <img class="gallery__tile" src="img/face.jpg">
+        </a> 
+        <a class="gallery__thumb" data-fslightbox href="img/face2.jpg">
+            <img class="gallery__tile" src="img/face2.jpg">
+        </a> 
+        <a class="gallery__thumb" data-fslightbox href="img/face.jpg">
+            <img class="gallery__tile" src="img/face.jpg">
+        </a> 
+        <a class="gallery__thumb" data-fslightbox href="img/face2.jpg">
+            <img class="gallery__tile" src="img/face2.jpg">
+        </a> 
+    </div>
+ 
+    </div>
+</section> -->
+
+
+
+<script src="lightbox/fslightbox.js"></script>
 <script src="app.js"></script>
 </body>
 </html>
