@@ -910,6 +910,7 @@ box-shadow: 15px 15px 0px 3px #000;
 
     .projects__projectTitle {
         margin-bottom: 0;
+        font-size: 28px;
     }
 
     .fas {
@@ -934,7 +935,7 @@ box-shadow: 15px 15px 0px 3px #000;
     }
 
     .projects__thumb {
-        height: 180px;
+        height: 140px;
     }
 
     .projects__header {
@@ -1049,10 +1050,12 @@ box-shadow: 15px 15px 0px 3px #000;
 
     .projects__view {
         margin-bottom: 0;
+        margin-top: 0;
     }
 
     .projects__arrow {
         margin-bottom: 0;
+        margin-top: 0;
     }
 
     .projects__project:hover .projects__projectTitle::before {
