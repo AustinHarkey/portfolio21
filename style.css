@@ -971,7 +971,7 @@ box-shadow: 15px 15px 0px 3px #000;
     }
 
     .hero__row {
-        top: 50%;
+        top: 45%;
     }
 
     .projects__cta {
@@ -1026,6 +1026,7 @@ box-shadow: 15px 15px 0px 3px #000;
 
     .projects {
         padding-bottom: 40px;
+        padding-top: 20px;
     }
 
     .tripleList {
